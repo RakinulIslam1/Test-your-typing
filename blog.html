@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="text-center bg-black">
+    <header class="p-6">
+        <h1 class=" text-5xl font-bold text-white underline underline-offset-8">BLOG SECTION
+        </h1>
+    </header>
+    <main class="p-6">
+        <section class="border-solid border-2 border-sky-500 rounded-lg px-20 py-10 mx-10 mb-5">
+            <h1 class="text-3xl mb-3 font-semibold text-white">Question 1: Difference between localstorage and sessionstorage</h1>
+            <p class="text-xl">
+                <span class="text-white font-semibold">Answer:</span> LocalStorage and sessionStorage are almost identical and have the same API. The difference is that with sessionStorage ,
+                the data is persisted only until the window or tab is closed. With localStorage , the data is persisted until the user
+                manually clears the browser cache or until your web app clears the data.
+            </p>
+        </section>
+
+        <section class="border-solid border-2 border-sky-500 rounded-lg px-20 py-10 mx-10 mb-5">
+            <h1 class="text-3xl mb-3 font-semibold text-white">Question 2: Difference between local scope and block scope</h1>
+            <p class="text-xl">
+                <span class="text-white font-semibold">Answer:</span> The main difference between the local scope and block scope is that the block statements if conditions or for
+                loops, don't create a new scope. So the var keyword will not have an effect, because the variables are still in the
+                same scope. ES6 introduced block scope by using the let and const keywords.
+            </p>
+        </section>
+
+        <section class="border-solid border-2 border-sky-500 rounded-lg px-20 py-10 mx-10 mb-5">
+            <h1 class="text-3xl mb-3 font-semibold text-white">Question 3: How javascript event loop works</h1>
+            <p class="text-xl">
+                <span class="text-white font-semibold">Answer:</span> The Event Loop has one simple job to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the
+                Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such
+                an iteration is called a tick in the Event Loop.
+            </p>
+        </section>
+
+        <section class="border-solid border-2 border-sky-500 rounded-lg px-20 py-10 mx-10 mb-5">
+            <h1 class="text-3xl mb-3 font-semibold text-white">Question 4: How many type of undefined are there in javascript</h1>
+            <p class="text-xl">
+                <span class="text-white font-semibold">Answer:</span> There are some types of undefine in js such as a variable that has not been assigned a value is of type undefined . A method or statement also returns undefined if the
+                variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not
+                returned.etc
+            </p>
+        </section>
+    </main>
+
+    <footer class="text-center text-2xl bg-black p-5 font-bold">
+        { BLOG SECTION } <br>
+        Ⓒ Copyright 2020 - 2025 by JS
+    </footer>
+</body>
+
+</html>
