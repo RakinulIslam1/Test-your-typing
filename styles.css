@@ -191,6 +191,7 @@ button {
     text-align: center;
     gap: 7px;
   }
+  
 }
 
 @media only screen and (min-width: 992px) {
