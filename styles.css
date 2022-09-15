@@ -63,9 +63,9 @@ body {
 }
 #result {
   position: fixed;
-  top: 10%; 
+  top: 20%; 
   left: 10%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(50%, 50%); */
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -188,5 +188,24 @@ button {
   }
   .card {
     flex-direction: column;
+    text-align: center;
+    gap: 7px;
+  }
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .card{
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    
+  }
+  #histories{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3 ,1fr);
+    
   }
 }
